@@ -38,8 +38,14 @@
 			 markerColor: 'red'
 		 });
 		 //L.marker([37.545800, 126.918315], {icon: redMarker}).addTo(map);
-	        L.marker([37.594091, 126.967147], {icon: L.AwesomeMarkers.icon({icon: 'ion-coffee', markerColor: 'red', prefix: 'fa', iconColor: 'black'}) }).addTo(map).bindPopup('<p><a href=racafe.kr><b>라카페갤러리</b></a><br>종로구 부암동</p>');
-		L.marker([37.594091, 126.967147], {icon: L.AwesomeMarkers.icon({icon: 'ion-coffee', markerColor: 'red', prefix: 'fa', iconColor: 'black'}) }).addTo(map).bindPopup('<p><a href=racafe.kr><b>라카페갤러리</b></a><br>종로구 부암동</p>');
+	        
+	  	L.marker([37.594091, 126.967147], {icon: L.AwesomeMarkers.icon({icon: 'ion-coffee', markerColor: 'red', prefix: 'fa', iconColor: 'black'}) }).addTo(map).bindPopup('<p><a href=racafe.kr><b>라카페갤러리</b></a><br>종로구 부암동</p>');
+	  	L.marker([37.545800, 126.918315], {icon: L.AwesomeMarkers.icon({icon: 'ion-coffee', markerColor: 'red', prefix: 'fa', iconColor: 'black'}) }).addTo(map).bindPopup('<p><a href="http://onedayof.tistory.com/entry/%EC%83%81%EC%88%98%EC%B9%B4%ED%8E%98-ANTHRACITE-%EC%95%A4%ED%8A%B8%EB%9F%AC%EC%82%AC%EC%9D%B4%ED%8A%B8"><b>앤트러사이트</b></a><br>마포구 합정동</p>');
+	  	L.marker([37.535995, 127.000025], {icon: L.AwesomeMarkers.icon({icon: 'ion-coffee', markerColor: 'red', prefix: 'fa', iconColor: 'black'}) }).addTo(map).bindPopup('<p><a href=“링크주소”><b>앤트러사이트</b></a><br>용산구 한남동</p>');
+	  
+	  
+	  	map.setView([37.529246,126.979916], 5);
+ -   		L.control.scale().addTo(map); 
   </script>
 </body>
 </html>
